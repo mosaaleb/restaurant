@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
 
-body {
-  background-color: rgb(204, 197, 197);
+#hero {
+  background-image: url(../images/bg.jpg);
+}
+
+.active-tab {
+  color: theme('colors.teal.700');
+  border-bottom: 4px solid theme('colors.teal.700');
 }
