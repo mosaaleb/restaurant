@@ -2,13 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
 
 #hero {
-  background-image: url(../images/bg.jpg);
+  background-image: url(../images/bg-last.jpg);
 }
 
 .active-tab {
-  color: theme('colors.teal.700');
-  border-bottom: 4px solid theme('colors.teal.700');
+  color: theme('colors.yellow.700');
+  border-bottom: 3px solid theme('colors.yellow.700');
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 18px;
+}
+::-webkit-scrollbar-thumb {
+  height: 20px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 7px;
+  background-color: rgba(4, 0, 255, 0.2);
+  box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
 }
