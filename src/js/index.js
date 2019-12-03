@@ -4,6 +4,7 @@
 
 
 import '../css/main.css';
+import '../images/about-bg.jpg';
 import '../images/dish4-croped.png';
 
 import HomeTab from './tabs/home';

@@ -9,6 +9,10 @@
   background-image: url(../images/bg-last.jpg);
 }
 
+#about-bg {
+  background-image: url(../images/about-bg.jpg);
+}
+
 .active-tab {
   color: theme('colors.yellow.700');
   border-bottom: 3px solid theme('colors.yellow.700');
@@ -23,7 +27,7 @@
   border: 4px solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border-radius: 7px;
-  background-color: rgba(4, 0, 255, 0.2);
+  background-color: theme('colors.gray.700');
   box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
 }
 ::-webkit-scrollbar-button {
