@@ -8,7 +8,7 @@ const HomeTab = (() => {
         <button class="mt-5 px-3 py-2 rounded-full bg-transparent text-yellow-700 font-bold uppercase border-solid border-2 border-yellow-700" id="menu-btn">Check Menu</button>
       </section>
       <section>
-        <img src="images/dish4-croped.png" alt="dish" class="h-112 p-4 border-4 border-gray-200 rounded-full">
+        <img src="images/home-dish.png" alt="dish" class="h-112 p-4 border-4 border-gray-200 rounded-full">
       </section>
     </div>
   `;

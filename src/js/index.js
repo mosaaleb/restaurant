@@ -1,11 +1,6 @@
-// TODO: add each tab content
-// TODO: add animiation on tab change
-// TODO: add purge css to minify generated css classes
-
-
 import '../css/main.css';
 import '../images/about-bg.jpg';
-import '../images/dish4-croped.png';
+import '../images/home-dish.png';
 
 import HomeTab from './tabs/home';
 import MenuTab from './tabs/menu';
@@ -56,5 +51,5 @@ const TabSwitcher = (() => {
   return { setDefaultTab, bindListeners };
 })();
 
-// TabSwitcher.setDefaultTab();
+TabSwitcher.setDefaultTab();
 TabSwitcher.bindListeners();
