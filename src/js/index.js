@@ -9,7 +9,6 @@ import ContactTab from './tabs/contact';
 
 const TabSwitcher = (() => {
   const tabs = document.querySelectorAll('.tab');
-  const menuButton = document.getElementById('menu-btn');
 
   const setDefaultTab = () => {
     tabs[0].classList.add('active-tab');
@@ -43,8 +42,12 @@ const TabSwitcher = (() => {
         renderTab(tab);
       });
     });
-    menuButton.addEventListener('click', () => {
-      MenuTab.render();
+    document.addEventListener('click', (event) => {
+      if (event.target && event.target.id === 'menu-btn') {
+        resetActiveTab();
+        tabs[1].classList.add('active-tab');
+        MenuTab.render();
+      }
     });
   };
 
