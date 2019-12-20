@@ -14,7 +14,7 @@ const HomeTab = (() => {
   `;
 
   const render = () => {
-    const root = document.getElementById('content');
+    const root = document.getElementById('tab');
     root.innerHTML = tabContent;
   };
 
